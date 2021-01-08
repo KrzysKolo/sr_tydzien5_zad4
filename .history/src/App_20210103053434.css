@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+section {
+  margin: 2vh auto;
+  width: 70%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.header__section {
+  height: 30vh;
+  background-image: url("./images/girl.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__search {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.55);
+  font-size: 23px;
+}
+.user {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  list-style: none;
+}
+.user:nth-child(odd) {
+  background: #ececec;
+  border-bottom: 2px solid red;
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(206, 194, 179, 0.8);
+}
+section {
+  margin: 2vh auto;
+  width: 70%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px #000;
+}
+.header__section {
+  height: 35vh;
+  background-image: url("./images/girl.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.header__title {
+  font-size: 2rem;
+  font-family: "Peralta", cursive;
+  margin: 0 auto 10px 3rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.header__search-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.header__search {
+  padding: 8px 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.55);
+  font-size: 20px;
+}
+.user {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  background-color: #fefefe;
+}
+.user:nth-child(odd) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(206, 194, 179, 0.6) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
